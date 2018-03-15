@@ -1,0 +1,48 @@
+Arguments: 
+  /Users/benjamintatum/.nvm/versions/node/v9.1.0/bin/node /usr/local/Cellar/yarn/1.3.2/libexec/bin/yarn.js install
+
+PATH: 
+  /Users/benjamintatum/.cargo/bin:/usr/local/sbin:/Users/benjamintatum/.nvm/versions/node/v9.1.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin
+
+Yarn version: 
+  1.3.2
+
+Node version: 
+  9.1.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "@argonomo/tenexpo",
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "repository": "https://github.com/Argonomo/tenexpo",
+    "license": "MIT",
+    "private": false,
+    "scripts": {
+      "build": "babel -d dist/ src/",
+      "prepublish": "yarn build"
+    },
+    "devDependencies": {
+      "@babel/cli": "^7.0.0-beta.40",
+      "@babel/core": "^7.0.0-beta.40",
+      "@babel/preset-env": "^7.0.0-beta.40"
+    },
+    "contributors": [
+      "Bryan Culver <me@bryanculver.com> (https://bryanculver.com)",
+      "Ben Tatum <github@benjtatum.com> (https://benjtatum.com)"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: read ETIMEDOUT
+      at _errnoException (util.js:1031:13)
+      at TLSWrap.onread (net.js:619:25)

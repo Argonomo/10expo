@@ -1,0 +1,21 @@
+{
+  "name": "@argonomo/tenexpo",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "repository": "https://github.com/Argonomo/tenexpo",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "babel -d dist/ src/",
+    "prepublish": "yarn build"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.40",
+    "@babel/core": "^7.0.0-beta.40",
+    "@babel/preset-env": "^7.0.0-beta.40"
+  },
+  "contributors": [
+    "Bryan Culver <me@bryanculver.com> (https://bryanculver.com)",
+    "Ben Tatum <github@benjtatum.com> (https://benjtatum.com)"
+  ]
+}
